@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>加入我们</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: #eee;
+      }
+      /* * {
+        border: 1px solid black;
+      } */
+      .flex {
+        display: flex;
+      }
+      .white {
+        background-color: white;
+        box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+          rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .daoHang {
+        padding: 10px 20px;
+        height: 30px;
+        border-bottom: 1px solid rgb(190, 190, 190);
+        font-size: 17px;
+        color: #666;
+      }
+      .mg8 {
+        margin: 8px;
+      }
+      .mgt8 {
+        margin-top: 8px;
+      }
+      .mgr8 {
+        margin-right: 8px;
+      }
+      @media (max-width: 1023px) {
+        .ceBian {
+          display: none;
+        }
+        .neiRong {
+          flex-direction: column;
+        }
+        .shuJu {
+          flex-direction: column;
+        }
+        .youQu {
+          margin-left: 8px;
+        }
+        .touBu {
+          height: 75;
+        }
+      }
+    </style>
+  </head>
+  <body class="flex">
+    <!-- 侧边栏 -->
+    <div style="width: 250px; z-index: 2" class="ceBian white flex column">
+      <!-- 头像栏 -->
+      <div
+        class="flex"
+        style="
+          height: 80px;
+          padding: 10px;
+          font-weight: 100px;
+          align-items: center;
+          justify-self: center;
+          border-bottom: 1px solid #999;
+        "
+      >
+        <a href="./main.html"><img src="../../img/add.png" style="height: 100px; width: 100px" /></a>
+        <div style="margin-left: 10px">界家村(JFV)</div>
+      </div>
+      <!-- 导航栏 -->
+      <div style="overflow: auto; flex: 5" class="flex column flex1 class="column">
+        <div class="daoHang"><a href="./geRenXinXi.html">·个人信息</a></div>
+        <div class="daoHang"><a href="./lianXiFangShi.html">·联系方式</a></div>
+        <div class="daoHang"><a href="./kaiShiShenHe.html">·开始审核</a></div>
+      </div>
+      <!-- 底部栏 -->
+      <div style="flex: 1;" class="column mgt8">
+      <a style="color: #666" href="">版权声明©</a>
+      <a style="color: #666" href="">备案号:xxxxxxxxx</a>
+      </div>
+    </div>
+    <!-- 主区域 -->
+    <div class="flex1 flex column">
+      <!-- 头部栏 -->
+      <div style="height: 110px; z-index: 1" class="touBu white"></div>
+      <!-- 内容区 -->
+      <div style="overflow: auto" class="neiRong flex1 flex">
+        <!--左区-->
+        <div style="flex: 3" class="flex column mg8">
+          <!-- 数据区-->
+          <div class="shuJu flex,white mg8">
+        </div>
+        <!--右区-->
+        <div style="flex: 1" class="youQu flex column mgr8 mgt8">
+          <!-- 提示区-->
+          <div style="height: 75px" class="white"><h2>填写个人信息</h2></div>
+          <!-- 填写区-->
+          <div style="height: 1000px" class="white mgt8">
+            <script type='text/javascript' src='https://www.wjx.top/handler/jqemed.ashx?activity=PWfanvc&width=760&source=iframe'></script>
+            </select>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+  </body>
+</html>
