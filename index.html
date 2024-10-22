@@ -4,63 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JFV-首页</title>
-    <style>
-      body {
-        margin: 0;
-        height: 100vh;
-        background-color: #eee;
-      }
-      /* * {
-        border: 1px solid black;
-      } */
-      .flex {
-        display: flex;
-      }
-      .white {
-        background-color: white;
-        box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
-          rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
-      }
-      .flex1 {
-        flex: 1;
-      }
-      .column {
-        flex-direction: column;
-      }
-      .daoHang {
-        padding: 10px 20px;
-        height: 30px;
-        border-bottom: 1px solid rgb(190, 190, 190);
-        font-size: 17px;
-        color: #666;
-      }
-      .mg8 {
-        margin: 8px;
-      }
-      .mgt8 {
-        margin-top: 8px;
-      }
-      .mgr8 {
-        margin-right: 8px;
-      }
-      @media (max-width: 1023px) {
-        .ceBian {
-          display: none;
-        }
-        .neiRong {
-          flex-direction: column;
-        }
-        .shuJu {
-          flex-direction: column;
-        }
-        .youQu {
-          margin-left: 8px;
-        }
-        .touBu {
-          height: 75;
-        }
-      }
-    </style>
+    <link type="text/css" rel="stylesheet" href="index.css">
   </head>
   <body class="flex">
     <!-- 侧边栏 -->
@@ -112,7 +56,32 @@
     <!-- 主区域 -->
     <div class="flex1 flex column">
       <!-- 头部栏 -->
-      <div style="height: 110px; z-index: 1" class="touBu white"></div>
+      <div style="height: 110px; z-index: 1" class="touBu white">
+        <div id="title" style="width:55px;height:55px;background-color: #414141;" onclick="onTileClick()"><img src="./img/tile.png"></div>
+        <div id="content" class = "collapsedNavigationBar" style="overflow: auto; width:400px;overflow: hidden;height:800px;background-color: #ffffff;transition: height 0.2s;">
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+          <div class="daoHang">导航</div>
+        </div>
+        <script type="text/javascript" src="./function/collapsedNavigationBar.js"></script>
+      </div>
       <!-- 内容区 -->
       <div style="overflow: auto" class="neiRong flex1 flex">
         <!--左区-->
