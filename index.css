@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #eee;
+}
+/* * {
+        border: 1px solid black;
+      } */
+.flex {
+  display: flex;
+}
+.white {
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+}
+.flex1 {
+  flex: 1;
+}
+.column {
+  flex-direction: column;
+}
+.daoHang {
+  padding: 10px 20px;
+  height: 30px;
+  border-bottom: 1px solid rgb(190, 190, 190);
+  font-size: 17px;
+  color: #666;
+}
+.mg8 {
+  margin: 8px;
+}
+.mgt8 {
+  margin-top: 8px;
+}
+.mgr8 {
+  margin-right: 8px;
+}
+@media (max-width: 1023px) {
+  .ceBian {
+    display: none;
+  }
+  .neiRong {
+    flex-direction: column;
+  }
+  .shuJu {
+    flex-direction: column;
+  }
+  .youQu {
+    margin-left: 8px;
+  }
+  .touBu {
+    height: 75;
+  }
+}
